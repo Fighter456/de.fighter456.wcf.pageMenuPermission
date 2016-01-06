@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="de.fighter456.wcf.pageMenuPermission">
+	<packageinformation>
+		<packagename language="de"><![CDATA[Hauptmenü-Punkte: Gruppenberechtigungen]]></packagename>
+    		<packagedescription language="de"><![CDATA[Diese Erweiterung erlaubt Ihnen, die Hauptmenü-Punkte mit beliebigen Benutzergruppenrechten zu versehen.]]></packagedescription>
+    		<packagename language="de-informal"><![CDATA[Hauptmenü-Punkte: Gruppenberechtigungen]]></packagename>
+    		<packagedescription language="de-informal"><![CDATA[Diese Erweiterung erlaubt es, die Hauptmenü-Punkte mit beliebigen Benutzergruppenrechten zu versehen.]]></packagedescription>
+    		<packagename language="en"><![CDATA[Main menu items: Group Permissions]]></packagename>
+    		<packagedescription language="en"><![CDATA[This plugin allows you to provide the main menu items with any user group rights.]]></packagedescription>
+    		<version>1.0.0</version>
+		<date>2011-11-26</date>
+		<plugin>com.woltlab.wcf.acp.display.pageMenu</plugin>
+	</packageinformation>
+	
+	<authorinformation>
+		<author><![CDATA[Dennis Kraffczyk]]></author>
+		<authorurl><![CDATA[http://www.support.thomasmania.de/]]></authorurl>
+	</authorinformation>
+		
+	<instructions type="install">
+	  	<!-- config -->
+	  	<eventlistener>eventlistener.xml</eventlistener>
+	  	<languages languagecode="de">de.xml</languages>
+	  	<languages languagecode="de-informal">de-informal.xml</languages>
+	  	<languages languagecode="en">en.xml</languages>
+		
+		<!-- files -->
+		<acptemplates>acptemplates.tar</acptemplates>
+		<files>files.tar</files>	
+	</instructions>
+</package>

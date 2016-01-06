@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language  xmlns="http://www.woltlab.com"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd"  languagecode="de">
+  <category name="wcf.acp.pageMenuItem">   
+	<item name="wcf.acp.pageMenuItem.permissions"><![CDATA[Berechtigungen]]></item>
+	<item name="wcf.acp.pageMenuItem.permissions.description"><![CDATA[Wählen Sie hier die Gruppenrechte aus, die ein Benutzer benötigt, um diesen Menüpunkt zu sehen. Wählen Sie kein Recht aus, ist der Menüpunkt für alle Benutzer sichtbar.]]></item> 	  		  
+  </category>
+</language> 

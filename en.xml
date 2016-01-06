@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language  xmlns="http://www.woltlab.com"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd"  languagecode="en">
+  <category name="wcf.acp.pageMenuItem">   
+	<item name="wcf.acp.pageMenuItem.permissions"><![CDATA[Permissions]]></item>
+	<item name="wcf.acp.pageMenuItem.permissions.description"><![CDATA[Select the permissions, a user needs to see this menu item. If no permission is selected, the menu item is visible to all.]]></item> 	  		  
+  </category>
+</language> 
